@@ -98,7 +98,7 @@ export type {
 } from "./logger";
 
 /**
- * Export the CONST ENUMS from hap-nodejs
+ * Export the CONST ENUMS from @ashutoshdhundhara/hap-nodejs
  * These get converted to their string value at compile time
  * and can be safely used directly.
  */
@@ -152,14 +152,14 @@ export {
   TargetUpdates,
   Topics,
   Units,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 
 /**
  * Export HAP-NodeJS namespaces as type only
  */
 export type {
   DataStreamParser,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 
 /**
  * Export HAP-NodeJS classes as type only
@@ -199,7 +199,7 @@ export type {
   StreamController,
   // UUID,
   // ValueWrapper,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 
 /**
  * Export HAP-NodeJS interfaces as type only
@@ -237,7 +237,7 @@ export type {
   SiriAudioStreamProducerConstructor,
   SourceResponse,
   VideoRecordingOptions,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 
 /**
  * Export HAP-NodeJS type aliases as type only
@@ -333,7 +333,7 @@ export type  {
   VoidCallback,
   WithUUID,
   WriteCharacteristicsCallback,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 
 /**
  * Export HAP-NodeJS variables as type only
@@ -344,7 +344,7 @@ export type {
   LegacyTypes,
   Status,
   uuid,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 
 /**
  * Export HAP-NodeJS functions as type only
@@ -371,4 +371,4 @@ export type {
   // writeUInt16,
   // writeUInt32,
   // writeUInt64,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";

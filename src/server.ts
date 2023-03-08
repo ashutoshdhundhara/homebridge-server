@@ -12,7 +12,7 @@ import {
   AccessoryEventTypes,
   MacAddress,
   MDNSAdvertiser,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 import {
   IpcIncomingEvent,
   IpcOutgoingEvent,

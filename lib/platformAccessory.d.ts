@@ -1,8 +1,8 @@
 /// <reference types="node" />
 import { EventEmitter } from "events";
-import { Accessory, CameraController, Categories, Controller, ControllerConstructor, LegacyCameraSource, SerializedAccessory, Service, WithUUID } from "hap-nodejs";
+import { Accessory, CameraController, Categories, Controller, ControllerConstructor, LegacyCameraSource, SerializedAccessory, Service, WithUUID } from "@ashutoshdhundhara/hap-nodejs";
 import { PlatformName, PluginIdentifier, PluginName } from "./api";
-import { ConstructorArgs } from "hap-nodejs/dist/types";
+import { ConstructorArgs } from "@ashutoshdhundhara/hap-nodejs/dist/types";
 export declare type UnknownContext = Record<string, any>;
 export interface SerializedPlatformAccessory<T extends UnknownContext = UnknownContext> extends SerializedAccessory {
     plugin: PluginName;

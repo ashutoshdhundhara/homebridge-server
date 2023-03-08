@@ -1,4 +1,4 @@
-import { MacAddress } from "hap-nodejs";
+import { MacAddress } from "@ashutoshdhundhara/hap-nodejs";
 import { IpcService } from "./ipcService";
 import { ExternalPortService } from "./externalPortService";
 import { HomebridgeAPI, PluginType } from "./api";

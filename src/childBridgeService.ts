@@ -2,7 +2,7 @@ import child_process from "child_process";
 import path from "path";
 import fs from "fs-extra";
 
-import { MacAddress } from "hap-nodejs";
+import { MacAddress } from "@ashutoshdhundhara/hap-nodejs";
 import { IpcOutgoingEvent, IpcService } from "./ipcService";
 import { ExternalPortService } from "./externalPortService";
 import { HomebridgeAPI, PluginType } from "./api";

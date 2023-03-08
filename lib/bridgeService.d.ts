@@ -2,7 +2,7 @@ import { PluginManager } from "./pluginManager";
 import { Logging } from "./logger";
 import { Plugin } from "./plugin";
 import { PlatformAccessory } from "./platformAccessory";
-import { Accessory, Bridge, CharacteristicWarning, InterfaceName, IPAddress, MacAddress, MDNSAdvertiser } from "hap-nodejs";
+import { Accessory, Bridge, CharacteristicWarning, InterfaceName, IPAddress, MacAddress, MDNSAdvertiser } from "@ashutoshdhundhara/hap-nodejs";
 import { AccessoryIdentifier, AccessoryName, AccessoryPlugin, HomebridgeAPI, PlatformIdentifier, PlatformName, PluginIdentifier, StaticPlatformPlugin } from "./api";
 import { ExternalPortService, ExternalPortsConfiguration } from "./externalPortService";
 import { HomebridgeOptions } from "./server";

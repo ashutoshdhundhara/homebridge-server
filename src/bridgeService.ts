@@ -27,7 +27,7 @@ import {
   VoidCallback,
   MDNSAdvertiser,
   HAPLibraryVersion,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 import {
   AccessoryIdentifier,
   AccessoryName,

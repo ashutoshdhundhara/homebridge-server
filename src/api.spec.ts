@@ -1,4 +1,4 @@
-import { Service } from "hap-nodejs";
+import { Service } from "@ashutoshdhundhara/hap-nodejs";
 import { AccessoryPlugin, HomebridgeAPI, InternalAPIEvent, DynamicPlatformPlugin } from "./api";
 import { PlatformAccessory } from "./platformAccessory";
 

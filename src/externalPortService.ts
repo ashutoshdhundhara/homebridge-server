@@ -1,4 +1,4 @@
-import type { MacAddress } from "hap-nodejs";
+import type { MacAddress } from "@ashutoshdhundhara/hap-nodejs";
 import type { ChildBridgeFork } from "./childBridgeFork";
 import { Logger } from "./logger";
 

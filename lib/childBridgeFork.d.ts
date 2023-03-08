@@ -1,5 +1,5 @@
 import "source-map-support/register";
-import { MacAddress } from "hap-nodejs";
+import { MacAddress } from "@ashutoshdhundhara/hap-nodejs";
 import { ChildProcessMessageEventType, ChildProcessLoadEventData, ChildProcessPortAllocatedEventData } from "./childBridgeService";
 export declare class ChildBridgeFork {
     private bridgeService;

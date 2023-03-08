@@ -1,4 +1,4 @@
-import { Service, Categories, Accessory, RemoteController, uuid } from "hap-nodejs";
+import { Service, Categories, Accessory, RemoteController, uuid } from "@ashutoshdhundhara/hap-nodejs";
 import { PlatformAccessory, SerializedPlatformAccessory } from "./platformAccessory";
 
 function createAccessory(name = "TestAccessory", category?: Categories): PlatformAccessory {

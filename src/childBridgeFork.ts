@@ -12,7 +12,7 @@ import { Plugin } from "./plugin";
 import { PluginManager } from "./pluginManager";
 import { Logger } from "./logger";
 import { User } from "./user";
-import { AccessoryEventTypes, HAPStorage, MacAddress } from "hap-nodejs";
+import { AccessoryEventTypes, HAPStorage, MacAddress } from "@ashutoshdhundhara/hap-nodejs";
 import {
   ChildProcessMessageEventType,
   ChildProcessMessageEvent,

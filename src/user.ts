@@ -14,7 +14,7 @@ export class User {
   }
 
   static persistPath(): string {
-    return path.join(User.storagePath(), "persist"); // hap-nodejs data is stored here
+    return path.join(User.storagePath(), "persist"); // @ashutoshdhundhara/hap-nodejs data is stored here
   }
 
   static cachedAccessoryPath(): string {

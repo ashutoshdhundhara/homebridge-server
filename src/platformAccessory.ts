@@ -10,9 +10,9 @@ import {
   SerializedAccessory,
   Service, VoidCallback,
   WithUUID,
-} from "hap-nodejs";
+} from "@ashutoshdhundhara/hap-nodejs";
 import { PlatformName, PluginIdentifier, PluginName } from "./api";
-import { ConstructorArgs } from "hap-nodejs/dist/types";
+import { ConstructorArgs } from "@ashutoshdhundhara/hap-nodejs/dist/types";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type UnknownContext = Record<string, any>;

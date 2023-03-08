@@ -1,6 +1,6 @@
 import "source-map-support/register"; // registering node-source-map-support for typescript stack traces
 import commander from "commander";
-import { HAPStorage } from "hap-nodejs";
+import { HAPStorage } from "@ashutoshdhundhara/hap-nodejs";
 import getVersion, { getRequiredNodeVersion } from "./version";
 import { User } from "./user";
 import { Logger } from "./logger";

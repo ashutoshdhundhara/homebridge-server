@@ -1,6 +1,6 @@
 import { EventEmitter } from "events";
-import * as hapNodeJs from "hap-nodejs";
-import { Controller, Service } from "hap-nodejs";
+import * as hapNodeJs from "@ashutoshdhundhara/hap-nodejs";
+import { Controller, Service } from "@ashutoshdhundhara/hap-nodejs";
 import getVersion from "./version";
 import { PlatformAccessory } from "./platformAccessory";
 import { User } from "./user";

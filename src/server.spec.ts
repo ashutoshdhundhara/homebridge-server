@@ -1,7 +1,7 @@
 import path from "path";
 import fs from "fs-extra";
 
-import { HAPStorage } from "hap-nodejs";
+import { HAPStorage } from "@ashutoshdhundhara/hap-nodejs";
 import { Server } from "./server";
 import { User } from "./user";
 
